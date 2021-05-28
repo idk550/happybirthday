@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'cursive';
+    src: url('http://192.168.29.212:5500/res/little.ttf');
+}
+
+@font-face {
+    font-family: 'anothercursive';
+    src: url('http://192.168.29.212:5500/res/dancingscript.ttf');
+}
+
+:root {
+    --page-bg: #f2f1ef;
+    --name-clr: #f88b8b;
+    --name-font-clr: #424242;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.cont {
+    margin-top: 10em;
+}
+
+.CakeImg img {
+    width: 100%;
+}
+
+.Greeting {
+    margin-top: 5em;
+}
+
+.Greeting p {
+    font-family: 'cursive';
+    font-size: 6em;
+    font-weight: 900;
+    color: #5a5a5a;
+    margin: 0.2em 0;
+    text-align: center;
+}
+
+.Greeting div {
+    background-color: var(--name-clr);
+    font-family: 'anothercursive';
+    text-align: center;
+    font-weight: bold;
+    color: var(--name-font-clr);
+    font-size: 5rem;
+}
+
+#cuteBuddy {
+    position: absolute;
+    top: -4em;
+    right: 4em;
+    width: 430px;
+    transform: rotate(-10deg);
+}
