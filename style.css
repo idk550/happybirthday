@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'cursive';
-    src: url('http://192.168.29.212:5500/res/little.ttf');
+    src: url('https://idk550.github.io/happybirthday/res/little.ttf');
 }
 
 @font-face {
     font-family: 'anothercursive';
-    src: url('http://192.168.29.212:5500/res/dancingscript.ttf');
+    src: url('https://idk550.github.io/happybirthday/res/dancingscript.ttf');
 }
 
 :root {
